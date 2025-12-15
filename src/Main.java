@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import calculator.SimpleCalculator;
 public class Main {
 
     public static void main(String[] args) {
@@ -12,5 +11,7 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+        SimpleCalculator calc1 = new SimpleCalculator();
+        System.out.println(calc1.sum(2, 4));
     }
 }
